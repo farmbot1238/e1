@@ -1,0 +1,512 @@
+{
+    "unit1": [
+        {
+            "question": "Only local residents are ________ to park in the streets here.",
+            "options": ["forbidden", "permitted", "succeeded", "managed"],
+            "correct": 1
+        },
+        {
+            "question": "Glass is strictly ________ in the swimming pool area.",
+            "options": ["allowed", "permitted", "forbidden", "required"],
+            "correct": 2
+        },
+        {
+            "question": "I’ve ________ in making quite a few friends since I moved.",
+            "options": ["managed", "succeeded", "allowed", "permitted"],
+            "correct": 1
+        },
+        {
+            "question": "You are ________ to sort your recycling carefully.",
+            "options": ["supposed", "succeeded", "managed", "forbidden"],
+            "correct": 0
+        },
+        {
+            "question": "Which sentence correctly uses the definite article (the) with rivers?",
+            "options": ["I live near River Thames.", "I live near a River Thames.", "I live near the River Thames.", "I live near an River Thames."],
+            "correct": 2
+        },
+        {
+            "question": "When talking about cities like 'Amman', the rule is:",
+            "options": ["Use 'the' before the name.", "Use 'a' before the name.", "Use no article (Ø).", "Use 'an' before the name."],
+            "correct": 2
+        },
+        {
+            "question": "The moon shone down on ________ Wadi Rum that night.",
+            "options": ["the", "a", "an", "Ø (no article)"],
+            "correct": 3
+        },
+        {
+            "question": "The term for a person who works online and travels from place to place is:",
+            "options": ["local resident", "digital nomad", "governor", "deputy"],
+            "correct": 1
+        },
+        {
+            "question": "I have a dream of climbing ________ Jabal Umm ad Dami.",
+            "options": ["the", "a", "Ø (no article)", "an"],
+            "correct": 2
+        },
+        {
+            "question": "The word that means 'required or obligatory' is:",
+            "options": ["permitted", "required", "allowed", "managed"],
+            "correct": 1
+        },
+        {
+            "question": "The city has ________ in reducing the traffic significantly.",
+            "options": ["obliged", "succeeded", "permitted", "allowed"],
+            "correct": 1
+        },
+        {
+            "question": "I’ve ________ to settle in pretty well.",
+            "options": ["succeeded", "managed", "permitted", "forbidden"],
+            "correct": 1
+        },
+        {
+            "question": "We use 'the' with mountain ranges and groups, so we say:",
+            "options": ["Thailand", "the Thailand", "the Caribbean", "Caribbean"],
+            "correct": 2
+        },
+        {
+            "question": "Which sentence refers to 'school' as an institution rather than a building?",
+            "options": ["Ali walks past the school every day.", "Fadi always loved school.", "The school is next to the bank.", "I painted the school walls."],
+            "correct": 1
+        },
+        {
+            "question": "Turn right when you see the gates of ________ university.",
+            "options": ["a", "an", "the", "Ø"],
+            "correct": 2
+        },
+        {
+            "question": "My sister left ________ college last year.",
+            "options": ["the", "a", "Ø (no article)", "an"],
+            "correct": 2
+        },
+        {
+            "question": "The fastest way to get to Amman is to fly into ________ Queen Alia International airport.",
+            "options": ["the", "a", "an", "Ø"],
+            "correct": 3
+        },
+        {
+            "question": "I prefer ________ mountains to the sea.",
+            "options": ["the", "a", "an", "Ø"],
+            "correct": 3
+        },
+        {
+            "question": "At home, I’m not ________ to stay out after 10 p.m.",
+            "options": ["permitted", "required", "allowed", "managed"],
+            "correct": 2
+        },
+        {
+            "question": "Which article do we use with 'USA'?",
+            "options": ["a", "an", "the", "Ø"],
+            "correct": 2
+        }
+    ],
+    "unit2": [
+        {
+            "question": "Which of the following words describes a social issue related to the environment?",
+            "options": ["gender equality", "unemployment", "contaminate fresh water", "homelessness"],
+            "correct": 2
+        },
+        {
+            "question": "Abeer ________ a man of stealing the money.",
+            "options": ["denied", "accused", "offered", "promised"],
+            "correct": 1
+        },
+        {
+            "question": "Adel ________ breaking Jamal’s phone.",
+            "options": ["denied", "encouraged", "congratulated", "asked"],
+            "correct": 0
+        },
+        {
+            "question": "Habib ________ to help with the boxes.",
+            "options": ["denied", "offered", "accused", "congratulated"],
+            "correct": 1
+        },
+        {
+            "question": "Laith ________ Omar to get more exercise.",
+            "options": ["apologised", "encouraged", "denied", "said"],
+            "correct": 1
+        },
+        {
+            "question": "Nour ________ Samia on her graduation.",
+            "options": ["promised", "congratulated", "offered", "denied"],
+            "correct": 1
+        },
+        {
+            "question": "Reem ________ for forgetting Suha’s birthday.",
+            "options": ["accused", "apologised", "encouraged", "told"],
+            "correct": 1
+        },
+        {
+            "question": "In reported speech, the verb 'said' is usually used:",
+            "options": ["when we mention the person being addressed directly.", "without mentioning the person being addressed directly.", "only for questions.", "only for negatives."],
+            "correct": 1
+        },
+        {
+            "question": "Hamed ________ that he would always remember me.",
+            "options": ["told", "promised", "asked", "encouraged"],
+            "correct": 1
+        },
+        {
+            "question": "Which social issue means 'unemployment'?",
+            "options": ["poverty", "unemployment", "racism", "health"],
+            "correct": 1
+        },
+        {
+            "question": "The social issue related to 'gender equality' is:",
+            "options": ["immigration", "gender equality", "homelessness", "unemployment"],
+            "correct": 1
+        },
+        {
+            "question": "The police officer ________ that she would investigate the matter.",
+            "options": ["insisted", "promised", "apologised", "denied"],
+            "correct": 1
+        },
+        {
+            "question": "Salwa ________ to collect her sister from school.",
+            "options": ["insisted", "agreed", "advised", "reminded"],
+            "correct": 1
+        },
+        {
+            "question": "The doctor ________ us to get much more exercise.",
+            "options": ["promised", "apologised", "advised", "agreed"],
+            "correct": 2
+        },
+        {
+            "question": "Rakan ________ on bringing his original birth certificate.",
+            "options": ["insisted", "reminded", "advised", "apologised"],
+            "correct": 0
+        },
+        {
+            "question": "In reported questions, if the question starts with 'Do you...', we use:",
+            "options": ["that", "if / whether", "said", "told"],
+            "correct": 1
+        },
+        {
+            "question": "The teacher ________ the students that their homework was due next lesson.",
+            "options": ["said", "reminded", "apologised", "asked"],
+            "correct": 1
+        },
+        {
+            "question": "The word that means 'poverty' is:",
+            "options": ["poverty", "racism", "immigration", "homelessness"],
+            "correct": 0
+        },
+        {
+            "question": "The word that describes 'broken pipes' as a social issue is:",
+            "options": ["broken pipes", "racism", "unemployment", "poverty"],
+            "correct": 0
+        },
+        {
+            "question": "Noura ________ for waking the baby.",
+            "options": ["insisted", "agreed", "apologised", "reminded"],
+            "correct": 2
+        }
+    ],
+    "unit3": [
+        {
+            "question": "This laptop is full of ________ – things go wrong every minute!",
+            "options": ["gadgets", "bugs", "appliances", "functional"],
+            "correct": 1
+        },
+        {
+            "question": "Make sure you ________ your work so you don’t lose your project.",
+            "options": ["upgrade", "back up", "compatibility", "dated"],
+            "correct": 1
+        },
+        {
+            "question": "If you switch brands of gaming console, none of your old games will work due to ________ issues.",
+            "options": ["compatibility", "functional", "state-of-the-art", "dated"],
+            "correct": 0
+        },
+        {
+            "question": "I’m going to invest in a ________ console; it’s the newest model available.",
+            "options": ["dated", "old-fashioned", "state-of-the-art", "bugs"],
+            "correct": 2
+        },
+        {
+            "question": "My old laptop looks kind of ________, and it weighs a ton!",
+            "options": ["functional", "upgrade", "old-fashioned", "back up"],
+            "correct": 2
+        },
+        {
+            "question": "The ability for one piece of equipment to work with another is called:",
+            "options": ["compatibility", "functionality", "upgrade", "bug"],
+            "correct": 0
+        },
+        {
+            "question": "To make a copy of information held on a computer is to:",
+            "options": ["upgrade", "back up", "dated", "Functional"],
+            "correct": 1
+        },
+        {
+            "question": "In the passive voice, the sentence 'They will deliver the parcel' becomes:",
+            "options": ["The parcel is delivered.", "The parcel will be delivered.", "The parcel was delivered.", "The parcel has been delivered."],
+            "correct": 1
+        },
+        {
+            "question": "The fridge will automatically ________ more milk before you run out.",
+            "options": ["order", "ordered", "be ordered", "ordering"],
+            "correct": 0
+        },
+        {
+            "question": "Which word means 'everything a computer or program can do'?",
+            "options": ["Compatibility", "Functionality", "Upgrade", "Gadgets"],
+            "correct": 1
+        },
+        {
+            "question": "Paper-based distance-learning courses are rarely found and are considered ________.",
+            "options": ["functional", "state-of-the-art", "dated", "compatibility"],
+            "correct": 2
+        },
+        {
+            "question": "I think it’s time for a(n) ________; this laptop is nearly ten years old.",
+            "options": ["upgrade", "bug", "appliance", "functional"],
+            "correct": 0
+        },
+        {
+            "question": "MOOC stands for ________ Open Online Course.",
+            "options": ["Modern", "Massive", "Managed", "Media"],
+            "correct": 1
+        },
+        {
+            "question": "To convert the sentence 'The teacher told us' to impersonal passive:",
+            "options": ["It is said...", "We were told...", "It was told...", "We are told..."],
+            "correct": 1
+        },
+        {
+            "question": "Small problems that prevent something from working well are ________.",
+            "options": ["compatibility", "bugs", "gadgets", "functional"],
+            "correct": 1
+        },
+        {
+            "question": "The word that means 'very modern' is:",
+            "options": ["dated", "state-of-the-art", "old-fashioned", "functionality"],
+            "correct": 1
+        },
+        {
+            "question": "More milk ________ by the fridge automatically. (Passive voice)",
+            "options": ["will ordered", "will be ordered", "is order", "has ordered"],
+            "correct": 1
+        },
+        {
+            "question": "I expect the parcel ________ by four o’clock.",
+            "options": ["to deliver", "to be delivered", "delivering", "delivered"],
+            "correct": 1
+        },
+        {
+            "question": "A small innovative device is called:",
+            "options": ["appliance", "gadget", "bug", "function"],
+            "correct": 1
+        },
+        {
+            "question": "Curating online ________ takes a lot of time.",
+            "options": ["profiles", "bugs", "gadgets", "compatibility"],
+            "correct": 0
+        }
+    ],
+    "unit4": [
+        {
+            "question": "We reached the shore ________ after the storm.",
+            "options": ["pure chance", "safe and sound", "lucky break", "take it or leave it"],
+            "correct": 1
+        },
+        {
+            "question": "It was ________ that I met my old friend at the airport.",
+            "options": ["pure chance", "ups and downs", "sooner or later", "run the risk"],
+            "correct": 0
+        },
+        {
+            "question": "Life has its ________, but you have to keep going.",
+            "options": ["safe and sound", "ups and downs", "lucky break", "by chance"],
+            "correct": 1
+        },
+        {
+            "question": "If you don't study, you ________ of failing the exam.",
+            "options": ["given the opportunity", "run the risk", "sooner or later", "lucky break"],
+            "correct": 1
+        },
+        {
+            "question": "________, he will realize his mistake.",
+            "options": ["Sooner or later", "Pure chance", "Safe and sound", "Take it or leave it"],
+            "correct": 0
+        },
+        {
+            "question": "Getting that job was a ________ for him.",
+            "options": ["ups and downs", "lucky break", "safe and sound", "run the risk"],
+            "correct": 1
+        },
+        {
+            "question": "This is my final offer; ________.",
+            "options": ["safe and sound", "take it or leave it", "sooner or later", "by chance"],
+            "correct": 1
+        },
+        {
+            "question": "If I ________ what to do, I wouldn't ask you. (Second Conditional)",
+            "options": ["know", "knew", "had known", "knowing"],
+            "correct": 1
+        },
+        {
+            "question": "If I ________ richer, I would donate some money.",
+            "options": ["am", "was", "had been", "be"],
+            "correct": 1
+        },
+        {
+            "question": "If you ________ so extravagant last trip, you’d have enough money now. (Mixed Conditional)",
+            "options": ["aren't", "weren't", "hadn't been", "haven't been"],
+            "correct": 2
+        },
+        {
+            "question": "I wish I ________ there to see that guy unlock the safe!",
+            "options": ["am", "was", "had been", "have been"],
+            "correct": 2
+        },
+        {
+            "question": "If only he ________ the museum earlier!",
+            "options": ["visits", "visited", "had visited", "has visited"],
+            "correct": 2
+        },
+        {
+            "question": "I wish you ________ here to watch me perform now.",
+            "options": ["were", "are", "had been", "have been"],
+            "correct": 0
+        },
+        {
+            "question": "If only we ________ where you are, we would come and get you.",
+            "options": ["know", "knew", "had known", "knowing"],
+            "correct": 1
+        },
+        {
+            "question": "The phrase that means 'by accident' is:",
+            "options": ["Sooner or later", "By chance", "Safe and sound", "Take it or leave it"],
+            "correct": 1
+        },
+        {
+            "question": "If I ________ chocolate, I wouldn't have made a chocolate cake.",
+            "options": ["don't like", "didn't like", "hadn't liked", "wouldn't like"],
+            "correct": 1
+        },
+        {
+            "question": "He probably ________ because there were just old documents in the safe.",
+            "options": ["need not bother", "need not have bothered", "didn't need bother", "shouldn't bother"],
+            "correct": 1
+        },
+        {
+            "question": "If I ________ Mathematics, I would be able to solve this.",
+            "options": ["study", "studied", "had studied", "have studied"],
+            "correct": 1
+        },
+        {
+            "question": "He found himself stuck ________ a train and the platform.",
+            "options": ["between", "in", "on", "at"],
+            "correct": 0
+        },
+        {
+            "question": "________ helps people feel more relaxed.",
+            "options": ["Being kind", "Running", "Shouting", "Working"],
+            "correct": 0
+        }
+    ],
+    "unit5": [
+        {
+            "question": "The word that means 'empty inside' is:",
+            "options": ["solid", "hollow", "enormous", "circular"],
+            "correct": 1
+        },
+        {
+            "question": "Petra might never have been discovered if archaeologists ________ a satellite.",
+            "options": ["don't use", "didn't use", "hadn't used", "wouldn't use"],
+            "correct": 2
+        },
+        {
+            "question": "The platform ________ important because it was so big. (Speculation about the past)",
+            "options": ["must be", "must have been", "can't have been", "might be"],
+            "correct": 1
+        },
+        {
+            "question": "The pots ________ in around 150 BCE.",
+            "options": ["would made", "would have been made", "must made", "can't made"],
+            "correct": 1
+        },
+        {
+            "question": "Archaeologists think the platform ________ as a kind of stage.",
+            "options": ["must use", "might have been used", "can't use", "would use"],
+            "correct": 1
+        },
+        {
+            "question": "The platform ________ easy to reach, although it was near the centre. (Negative certainty)",
+            "options": ["must have been", "can't have been", "might have been", "would have been"],
+            "correct": 1
+        },
+        {
+            "question": "Which word means 'embroidery'?",
+            "options": ["pottery", "embroidery", "sculpture", "painting"],
+            "correct": 1
+        },
+        {
+            "question": "Jordanian embroidery often uses ________ patterns.",
+            "options": ["circular", "geometric", "hollow", "bronze"],
+            "correct": 1
+        },
+        {
+            "question": "The traditional garment in Jordan is called the ________.",
+            "options": ["thobe (thaob)", "sari", "kimono", "kilt"],
+            "correct": 0
+        },
+        {
+            "question": "________ at the diamond carefully, she said 'I think it’s a fake'. (Participle clause)",
+            "options": ["Look", "Looking", "Looked", "To look"],
+            "correct": 1
+        },
+        {
+            "question": "________ the city, I got lost.",
+            "options": ["Not knowing", "Don't know", "Not know", "Having not known"],
+            "correct": 0
+        },
+        {
+            "question": "________ the film several times, he remembered every scene.",
+            "options": ["Watch", "Having watched", "To watch", "Watched"],
+            "correct": 1
+        },
+        {
+            "question": "The group of actors in a play or film is called the ________.",
+            "options": ["plot", "cast", "scene", "sitcom"],
+            "correct": 1
+        },
+        {
+            "question": "The series of events in a story is the ________.",
+            "options": ["cast", "plot", "punchline", "script"],
+            "correct": 1
+        },
+        {
+            "question": "The last part of a joke that makes it funny is the ________.",
+            "options": ["plot", "cast", "punchline", "sitcom"],
+            "correct": 2
+        },
+        {
+            "question": "A funny television programme with the same characters every week is a ________.",
+            "options": ["documentary", "sitcom", "tragedy", "stand-up routine"],
+            "correct": 1
+        },
+        {
+            "question": "To ________ a joke means to tell a joke.",
+            "options": ["cast", "crack", "plot", "heckle"],
+            "correct": 1
+        },
+        {
+            "question": "Something that is very large is ________.",
+            "options": ["hollow", "enormous", "solid", "circular"],
+            "correct": 1
+        },
+        {
+            "question": "A statue made of a yellowish-brown metal is made of ________.",
+            "options": ["silk", "bronze", "threads", "dye"],
+            "correct": 1
+        },
+        {
+            "question": "________ Mathematics, she was used to making calculations.",
+            "options": ["Study", "Having studied", "Studies", "To study"],
+            "correct": 1
+        }
+    ]
+}
