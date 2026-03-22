@@ -4,10 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>English Department</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" id="mainStyle">
+    <style id="antiTheftStyle">
+        /* Anti-theft protection - hides content if CSS files are missing */
+        .anti-theft-message {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #000000 0%, #1a0000 100%);
+            z-index: 9999;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            font-family: monospace;
+        }
+        
+        .anti-theft-message h1 {
+            font-size: 4em;
+            color: #ff0000;
+            margin-bottom: 30px;
+            text-shadow: 3px 3px 0px #660000;
+            animation: shake 0.5s ease-in-out infinite;
+        }
+        
+        .anti-theft-message p {
+            font-size: 1.8em;
+            color: #ff6666;
+            margin: 20px 0;
+        }
+        
+        .anti-theft-message .laugh {
+            font-size: 5em;
+            animation: bounce 1s ease-in-out infinite;
+            display: inline-block;
+        }
+        
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-10px); }
+            75% { transform: translateX(10px); }
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-30px); }
+        }
+        
+        .hidden-content {
+            display: none !important;
+        }
+    </style>
 </head>
 <body>
-    <div class="container" id="app">
+    <!-- Anti-theft message (shown only if files are missing) -->
+    <div id="antiTheftMessage" class="anti-theft-message" style="display: none;">
+        <div>
+            <span class="laugh">😂😂😂</span>
+            <h1>هههههههههههههههه</h1>
+            <p>مفكر حالك قوي بتحاول تسرق الموقع؟</p>
+            <p>😎 أنا أذكى منك 😎</p>
+            <p style="font-size: 1.2em; color: #ff9999;">الموقع مش كامل يالحبيب... رجع وراك 😂</p>
+            <span class="laugh">🤣🤣🤣</span>
+        </div>
+    </div>
+
+    <!-- Main Content (hidden if files are missing) -->
+    <div id="mainContent" class="container hidden-content">
         <!-- Main Menu Screen -->
         <div id="menuScreen">
             <h1>📚 <span>English</span> Department</h1>
@@ -90,6 +156,117 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="script.js" id="mainScript"></script>
+    <script>
+        // Anti-theft detection - checks if all required files are loaded
+        (function() {
+            const antiTheftMessage = document.getElementById('antiTheftMessage');
+            const mainContent = document.getElementById('mainContent');
+            
+            // Function to check if CSS is loaded
+            function isCSSLoaded() {
+                const styleSheets = document.styleSheets;
+                for (let i = 0; i < styleSheets.length; i++) {
+                    if (styleSheets[i].href && styleSheets[i].href.includes('style.css')) {
+                        try {
+                            // Try to access CSS rules to verify it's loaded from our domain
+                            const rules = styleSheets[i].cssRules;
+                            if (rules && rules.length > 0) {
+                                return true;
+                            }
+                        } catch(e) {
+                            // CORS error means the file exists but is from another domain
+                            // This is likely the stolen version
+                            return false;
+                        }
+                    }
+                }
+                return false;
+            }
+            
+            // Function to check if all files exist by trying to fetch them
+            async function checkAllFiles() {
+                const filesToCheck = ['style.css', 'script.js', 'questions.json'];
+                let allFilesExist = true;
+                
+                for (const file of filesToCheck) {
+                    try {
+                        const response = await fetch(file, { method: 'HEAD' });
+                        if (!response.ok) {
+                            allFilesExist = false;
+                            break;
+                        }
+                    } catch (error) {
+                        allFilesExist = false;
+                        break;
+                    }
+                }
+                
+                return allFilesExist;
+            }
+            
+            // Wait a bit for CSS and JS to load, then check
+            setTimeout(async () => {
+                const allFilesExist = await checkAllFiles();
+                const cssLoaded = isCSSLoaded();
+                
+                // Also check if the main script actually loaded
+                const scriptLoaded = typeof loadUnit !== 'undefined';
+                
+                if (!allFilesExist || !cssLoaded || !scriptLoaded) {
+                    // Show anti-theft message
+                    antiTheftMessage.style.display = 'flex';
+                    mainContent.classList.add('hidden-content');
+                    
+                    // Hide the main container too
+                    const container = document.querySelector('.container');
+                    if (container) {
+                        container.classList.add('hidden-content');
+                    }
+                    
+                    // Add some extra troll effects
+                    console.clear();
+                    console.log('%c🚨 WARNING! 🚨', 'color: red; font-size: 20px; font-weight: bold;');
+                    console.log('%cNice try, but you\'re missing the required files!', 'color: orange; font-size: 16px;');
+                    console.log('%c🤣 Go back where you came from! 🤣', 'color: red; font-size: 18px; font-weight: bold;');
+                    
+                    // Change page title
+                    document.title = '😂 Nice Try! 😂';
+                    
+                    // Disable right click
+                    document.addEventListener('contextmenu', function(e) {
+                        e.preventDefault();
+                        alert('هههههههههههه مفكر تحفظ الموقع؟ 😂');
+                        return false;
+                    });
+                    
+                    // Create floating troll messages
+                    setInterval(() => {
+                        const troll = document.createElement('div');
+                        troll.textContent = ['😂', '🤣', 'هههه', '😎', 'لا تسرق', 'رجع وراك'][Math.floor(Math.random() * 6)];
+                        troll.style.position = 'fixed';
+                        troll.style.left = Math.random() * window.innerWidth + 'px';
+                        troll.style.top = Math.random() * window.innerHeight + 'px';
+                        troll.style.fontSize = Math.random() * 40 + 20 + 'px';
+                        troll.style.opacity = '0.8';
+                        troll.style.pointerEvents = 'none';
+                        troll.style.zIndex = '10000';
+                        troll.style.animation = 'bounce 0.5s ease-out';
+                        document.body.appendChild(troll);
+                        setTimeout(() => troll.remove(), 2000);
+                    }, 500);
+                } else {
+                    // All files exist, show the content
+                    antiTheftMessage.style.display = 'none';
+                    mainContent.classList.remove('hidden-content');
+                    // Remove the hidden-content class from container if exists
+                    const container = document.querySelector('.container');
+                    if (container) {
+                        container.classList.remove('hidden-content');
+                    }
+                }
+            }, 1000);
+        })();
+    </script>
 </body>
 </html>
